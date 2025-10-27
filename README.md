@@ -1,12 +1,33 @@
-# Taller Vagrant + Provisionamiento con Shell
+# 🧰 Taller de Provisionamiento con Vagrant  
 
-## Pasos
-1. Clonar este repositorio.
-2. Ejecutar `vagrant up` para levantar las máquinas.
-3. Acceder a la máquina web en: http://192.168.56.10
-4. Verificar `index.html` y `info.php`.
+**Autor:** Santiago Botero Dorado  
+**Asignatura:** Sistemas Operativos  
+**Fecha:** Octubre de 2025  
 
-## Reto
-- Completar `provision-db.sh` para instalar PostgreSQL.
-- Crear una base de datos y tabla.
-- Conectar la página PHP a la base de datos y mostrar datos.
+---
+
+## 📘 Descripción del Proyecto
+Este proyecto implementa un entorno de **provisionamiento automatizado con Vagrant**, compuesto por dos máquinas virtuales conectadas mediante una red privada interna:
+
+- 🌐 **Web:** Servidor Apache + PHP.  
+- 🗄️ **DB:** Servidor PostgreSQL con base de datos y tabla inicial.
+
+El propósito del taller es demostrar cómo se pueden crear, configurar y conectar automáticamente múltiples máquinas virtuales mediante scripts de aprovisionamiento, logrando un entorno funcional de servidor web y base de datos completamente automatizado.
+
+---
+Evidencias
+ Página principal (index.html)    ![Index](imagenes/html.png) 
+ Info PHP (info.php)              ![Info](imagenes/php.png)   
+ Datos desde PostgreSQL (db.php)  ![DB](imagenes/bd.png)
+
+## ⚙️ Requisitos Previos
+
+Antes de ejecutar el proyecto, asegúrate de tener instalados:
+
+- [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+- [Vagrant](https://developer.hashicorp.com/vagrant/downloads)
+- [Git](https://git-scm.com/download/win)
+
+---
+
+## 📂 Estructura del Proyecto
