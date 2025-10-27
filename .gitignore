@@ -1,0 +1,7 @@
+# Ignorar archivos temporales y de Vagrant
+.vagrant/
+*.log
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db

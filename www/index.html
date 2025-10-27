@@ -1,11 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Mi primer sitio con Vagrant</title>
+    <meta charset="utf-8">
+    <title>Bienvenido a mi servidor web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            margin-top: 100px;
+        }
+        h1 {
+            color: #0078D7;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            background-color: #0078D7;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+        }
+        a:hover {
+            background-color: #005fa3;
+        }
+    </style>
 </head>
 <body>
-  <h1>¡Hola desde Apache en la VM web!</h1>
-  <p>Este sitio está corriendo en la máquina virtual provisionada con Vagrant.</p>
-  <a href="info.php">Ver script en PHP</a>
+    <h1>¡Hola, soy Santiago Botero Dorado!</h1>
+    <p>Bienvenido a mi servidor web provisionado con <strong>Vagrant</strong>.</p>
+    <a href="info.php">Ver información de PHP</a> |
+    <a href="db.php">Ver datos de la base de datos</a>
 </body>
 </html>
